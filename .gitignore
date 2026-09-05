@@ -1,0 +1,60 @@
+# === Entornos Virtuales ===
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# === Python / Caching ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# === Base de datos SQLite ===
+*.db
+*.sqlite
+*.sqlite3
+sql_app.db
+
+# === Variables de entorno y secretos ===
+.env
+.env.local
+.env.*.local
+
+# === Alembic / Migraciones en desarrollo ===
+# Descomentar si deseas ignorar migraciones locales temporales
+# alembic/versions/*.py
+# !alembic/versions/__init__.py
+
+# === IDEs y Editores ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# === Pruebas y Cobertura (Pytest) ===
+.pytest_cache/
+.coverage
+htmlcov/
+.nox/
+.tox/

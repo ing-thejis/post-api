@@ -58,3 +58,8 @@ sql_app.db
 htmlcov/
 .nox/
 .tox/
+
+*.http
+*.rest
+
+seed.py
